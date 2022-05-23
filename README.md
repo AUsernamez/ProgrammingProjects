@@ -21,5 +21,6 @@ Tic-Tac-Toe is a game where one player choses x the other o and they try to get 
 ## GUI Image #3:![New Piskel-1 png (6)](https://user-images.githubusercontent.com/54367938/169901038-b2b6d6e5-4661-49bf-8170-d2cc834563cc.png)
 
 
-## Class Diagram
+## Class Diagram![Untitled Diagram drawio (1)](https://user-images.githubusercontent.com/54367938/169912210-3724b16b-fd4c-4e3f-9bfd-96b2b8402a11.png)
+
 
