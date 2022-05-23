@@ -8,7 +8,8 @@ Pong is a game where a player compete against a ai in a ping-pong like game tryi
 ## GUI Image #3:![New Piskel-1 png (3)](https://user-images.githubusercontent.com/54367938/169883295-cfe51b92-65b6-4631-b3b1-079fc8b13ff4.png)
 
 
-## Class Diagram
+## Class Diagram ![Untitled Diagram drawio](https://user-images.githubusercontent.com/54367938/169894150-c1929b1d-c7ad-413e-a415-a7ccea70512d.png)
+
 
 # Programming Project #2: name
 descriptin of 1st project in detail
