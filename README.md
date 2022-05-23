@@ -14,7 +14,8 @@ Pong is a game where a player compete against a ai in a ping-pong like game tryi
 # Programming Project #2: Tic-Tac-Toe
 Tic-Tac-Toe is a game where one player choses x the other o and they try to get three in a row while trying to block the other player the first to get three in a row wins
 
-## GUI Image #1:
+## GUI Image #1:![New Piskel-1 png (4)](https://user-images.githubusercontent.com/54367938/169896924-05faa8c9-9700-4588-b620-152a5bff8e00.png)
+
 ## GUI Image #2:
 ## GUI Image #3:
 
