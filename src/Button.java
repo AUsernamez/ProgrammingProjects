@@ -19,7 +19,7 @@ class Button{
   }
   
   // method to display the button
- /*  void display(){
+   void display(){
        if(on) {
          fill(c1);
        }else{
@@ -33,7 +33,7 @@ class Button{
       text(val,x+20,y+25);
    }
    }
-  */
+  
   // method for hovering over the button
   void hover(int mx, int my) {
     on = (mx>x && mx<x+w && my>y && my<y+h);
