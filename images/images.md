@@ -6,3 +6,5 @@
 
 
  ![Untitled Diagram drawio](https://user-images.githubusercontent.com/54367938/169894150-c1929b1d-c7ad-413e-a415-a7ccea70512d.png)
+
+![New Piskel-1 png](https://user-images.githubusercontent.com/54367938/170282502-c47404ed-1a6d-4ba2-b361-55cfdc11f226.png)
