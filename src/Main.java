@@ -2,17 +2,20 @@ Ball ball;
 Endzone ez;
 Paddle paddle;
 Button button;
-PImage photo;
+PImage title;
+PImage endscreen;
 boolean play;
 int value = 0;
 boolean b;
 
-Button[] buttons = new Button[3];
+Button[] buttons = new Button[5];
 
 
 void setup () {
+b=true;
 size (900,700);
-photo = loadImage("Title.png");
+title = loadImage("Title.png");
+endscreen = loadImage("endscreen.png");
 
 }
 
@@ -23,13 +26,13 @@ void draw () {
 background(0);
 println(value);
 
-  
+  if(b){
 if(!play){
 credits ();
 }else{
   title ();
 }
- 
+  } 
 
 
 if(value == 1){
@@ -37,8 +40,14 @@ if(value == 1){
 }else if(value == 2) {
   howto();
 }else if(value == 3) {
-  exit();
+  endscreen();
+}else if(value == 4){
+  value=0;
+  b=true;
+}else if(value == 5){
+ exit(); 
 }
+
 
 
 
@@ -59,21 +68,10 @@ void credits () {
    
 }
 
-void mousePressed() {
- for (int i=0; i<buttons.length; i++) {
-    if (buttons[0].on) {
-    value=1;
-      }else if (buttons[1].on){
-        value=2;
-      }else if (buttons[2].on){
-        value=3;
-      }
-    }
-}
+
 
 void title () {
-image(photo, 0,0);
-rect(770,0,130,700);
+image(title, 0,0);
 fill(80,80,80);
 buttons[0] = new Button(800, 350, 100, 50, "start", color (122), color(222));
 buttons[1] = new Button(800, 410, 100, 50, "how to", color (122), color(222));
@@ -94,9 +92,34 @@ play=false;
      value=0;
       play=true;
     }
+}
 
-
-
-
-
+void endscreen(){
+ b=false;
+   image(endscreen,0,0);
+  buttons[3] = new Button(0, 650, 100, 50, "back", color (122), color(222));
+  buttons[4] = new Button(800, 650, 100, 50, "quit", color (122), color(222));
+ for (int i=0; i<buttons.length; i++) {
+   buttons[3].display();
+    buttons[3].hover(mouseX, mouseY);
+    buttons[4].display();
+    buttons[4].hover(mouseX, mouseY);
+   
+   
+ }
+}
+void mousePressed() {
+ for (int i=0; i<buttons.length; i++) {
+    if (buttons[0].on) {
+    value=1;
+      }else if (buttons[1].on){
+        value=2;
+      }else if (buttons[2].on){
+        value=3;
+      }else if(buttons[3].on){
+       value=4; 
+      }else if(buttons[4].on){
+       value=5; 
+      }
+    }
 }
