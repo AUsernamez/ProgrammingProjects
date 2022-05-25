@@ -45,7 +45,10 @@ if(value == 1){
 }
 
 void credits () {
-textAlign(CENTER);
+ if (keyPressed) {
+      play = true;
+    }
+  textAlign(CENTER);
     fill(255);
     textSize(46);
     text("how to play", width/2, height/2+30);
@@ -53,9 +56,7 @@ textAlign(CENTER);
     text("and dont let it get past your paddle", width/2, height/2+110);
     text("first to 10 points wins!", width/2, height/2+150);
     text("created by Zander Rapp", width/2, height/2+340);
-    if (keyPressed) {
-      play = true;
-    }
+   
 }
 
 void mousePressed() {
