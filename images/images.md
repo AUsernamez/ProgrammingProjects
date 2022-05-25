@@ -8,3 +8,4 @@
  ![Untitled Diagram drawio](https://user-images.githubusercontent.com/54367938/169894150-c1929b1d-c7ad-413e-a415-a7ccea70512d.png)
 
 ![New Piskel-1 png](https://user-images.githubusercontent.com/54367938/170282502-c47404ed-1a6d-4ba2-b361-55cfdc11f226.png)
+![Endscreen](https://user-images.githubusercontent.com/54367938/170361818-6288c772-a187-4f0f-8d90-3a78a3db6639.png)
