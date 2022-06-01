@@ -53,9 +53,11 @@ if(g){
   }
 }
 void keyPressed() {
+if (g){
   play = true;
   b=true;
   value = 0;
+}
 }
 
 void credits () {
@@ -140,8 +142,8 @@ void mousePressed() {
 void game(){
  play=false;
  g=false;
- image(game,0,0);
-  background (80,80,80); 
+ image(game,40,-40);
+  //background (80,80,80); 
  
   ball.xspeed = random (5,-5);
   ball.yspeed = 0;
