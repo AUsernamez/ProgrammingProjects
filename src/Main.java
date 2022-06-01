@@ -143,10 +143,31 @@ void game(){
  image(game,0,0);
   background (80,80,80); 
  
-  ball.xspeed = 5;
+  ball.xspeed = random (5,-5);
   ball.yspeed = 0;
   fill(225);
  ball.move();
   ball.display();
+  if (ball.right()<width){
+   ball.xspeed = -ball.xspeed;
+ 
+}
+  if (ball.left()<width){
+   ball.xspeed = -ball.xspeed;
+
+}
+  if (ball.bottom()<height){
+   ball.yspeed = -ball.yspeed;
+  }
+  if (ball.top()<0){
+   ball.yspeed = -ball.yspeed;
+  }
   
+}
+
+void score() {
+
+
+
+
 }
